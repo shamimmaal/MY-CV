@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/pexels-laker-6156383.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color:paleturquoise;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile-image{
+    border: 4px teal solid;
+    border-radius: 50%;   
+    float: left;    
+}
+
+.heater-bio{
+    float: left;
+    padding: 13px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+
+.heater-contact{
+    float: right;
+    padding: 14px;
+}
+
+.heater-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.heater-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: 3px black solid;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+}
+
+/*-----------------
+personal section start*/
+
+#personal-section{
+
+}
+
+.content{
+
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+
+#common-hr{
+    border: 1px black solid;
+    border-bottom: none;
+    width: 100%;
+    margin: 10px auto;
+}
+
+/*-----------------
+personal section end*/
+
+
+/*--------------
+education section start
+------------------*/
+.edu-template-left{
+    width: 35%;
+    float: left;
+}
+
+.edu-template-right{
+    width: 35%;
+    float: right;
+}
+
+
+/*----------------------
+fotter area
+---------------*/
+.fotter-area{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.fotter-area a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.fotter-area p{
+    color: blanchedalmond;
+    margin-top: 20px;
+}
+
+/*---------------
+fotter area end
+---------------*/
